@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "report": "rm -rf allure-report && allure generate && allure open"
+    "create-allure" : "allure generate && allure open",
+    "reports": "rm -rf allure-report && allure generate && allure open"
   },
   "author": "robby",
   "license": "ISC",
